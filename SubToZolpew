@@ -447,7 +447,7 @@ end)
 
 end)
 
-b:Button("Amoung us FE",function()
+b:Button("Shader",function()
     local light = game.Lighting
 for i, v in pairs(light:GetChildren()) do
 	v:Destroy()
