@@ -1,4 +1,10 @@
-library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Credits to owner (zolpew)";
+                Text = "made by Zolpew Playz";
+                Duration = 8.5;
+                end)
+                
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
 
 local w = library:CreateWindow("Useful Gui By Zolpew") -- Creates the window
 
@@ -259,9 +265,7 @@ b:Button("Sussy HUB",function()
     loadstring(game:HttpGet(('https://gist.githubusercontent.com/Nilrogram/8b0c8bd710be142f383c71f79279752c/raw/e4fb01a7de7cd498bb53270d2ad191dfab268a88/FE%2520SussyHub'),true))();
 end)
 
-b:Button("DEATH NOTE"),function()
-    --Made by Hirari_Tear edited by average Growtopia animator, credits to expro for the GUI--
-
+b:Button("DEATH NOTE",function()
 local player = game.Players.LocalPlayer
 local character1 = player.Character
 local mouse = player:GetMouse()
@@ -547,12 +551,6 @@ text.TextWrapped = true
 text.TextXAlignment = "Left"
 
 text.TextYAlignment = "Top"
-
-
-
--- Page
-
-
 
 local page = Instance.new("Frame", Note)
 
