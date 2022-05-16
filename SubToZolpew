@@ -1,10 +1,4 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Credits to owner (zolpew)";
-                Text = "made by Zolpew Playz";
-                Duration = 8.5;
-                end)
-                
-local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
+library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
 
 local w = library:CreateWindow("Useful Gui By Zolpew") -- Creates the window
 
