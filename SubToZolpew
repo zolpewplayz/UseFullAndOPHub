@@ -165,6 +165,22 @@ b:Button("FlyMobile",function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/zolpewplayz/FlyFEScript/main/NotByZolpew'),true))()
 end)
 
+b:Button("AntiAfk",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))()
+end)
+
+b:Button("Freeze Tool",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/AkJS0PC7'))()
+end)
+
+b:Button("Emotes Script",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/CKPD54Qw"))()
+end)
+
+b:Button("AntiAfk2",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/MsyTiEWT"))()
+end)
+
 local b = w:CreateFolder("Graphic") -- Creates the folder(U will put here your buttons,etc)
 
 b:Label("Graphic",{
@@ -569,6 +585,29 @@ for i, e in pairs(l:GetChildren()) do
         e.Enabled = false
     end
 end
+end)
+
+b:Label("Pls Donate Scripts",{
+    TextSize = 20; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+}) 
+
+b:Button("Tp Rich Person",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zolpewplayz/Find-Rich-Player/main/ByZolpew.SoSubToZolpew"))()
+end)
+
+b:Button("Robux Boost",function()
+    loadstring(game:HttpGet("https://pastebin.com/ddhgpkky"))()
+end)
+
+b:Button("Karaoke",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/MWr76Nm2"))()
+end)
+
+b:Button("Rainbow Text",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NocturneMoDz/PLS-DONATE/main/METAB"))()
 end)
 
 b:DestroyGui()
